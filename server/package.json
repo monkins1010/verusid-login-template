@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@bitgo/utxo-lib": "git+https://github.com/VerusCoin/BitGoJS.git#7c754d4a5920198d9fe6827d3e23bd5cf431f264",
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-ws": "^5.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "twilio": "^5.3.5",
+    "verusid-ts-client": "https://github.com/VerusCoin/verusid-ts-client.git"
+  },
+  "resolutions": {
+    "verus-typescript-primitives": "https://github.com/VerusCoin/verus-typescript-primitives.git"
+  }
+}
